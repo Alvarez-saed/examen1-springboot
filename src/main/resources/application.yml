@@ -1,13 +1,2 @@
 server:
   port: ${PORT:10000}
-
-spring:
-  datasource:
-    url: jdbc:postgresql://usuario_crud:CB8KWvWgQBIW1a2JfVYxsx2r0OuHtcm2@dpg-db0s3dk9v7es73cpoq8g-a/crud_db_ahlr
-    username: usuario_crud
-    password: CB8KWvWgQBIW1a2JfVYxsx2r0OuHtcm2
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
